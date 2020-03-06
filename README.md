@@ -14,8 +14,8 @@ Turn the EA upside down and remove the four screws
 
 ## Locate the UART
 Inside the EA you will see the UART header as shown.  The pins are ordered right to left and are as follows:
-1 - TX
-2 - GND
-3 - RX
-4 - +3.3VDC
+1. - TX
+2. - GND
+3. - RX
+4. - +3.3VDC
 
