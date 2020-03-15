@@ -10,7 +10,8 @@ I used a Rapberry PI to access the onboard UART.  The advantage of the RPI is th
 
 # Method
 ## Opening the EA Controller
-Turn the EA upside down and remove the four screws
+Turn the EA upside down and remove the two screws at the front of the controller as shown (you dont need to remove the others).
+![EA3-screw-removal](/images/ea-3-screw-removal.png)
 
 ## Locate the UART
 Inside the EA you will see the UART header as shown.  The pins are ordered right to left and are as follows:
