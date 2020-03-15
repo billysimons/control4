@@ -29,7 +29,7 @@ Inside the EA you will see the UART header as shown.  The pins are ordered right
 ![EA3-uart-pinout](/files/ea-3-uart-pinout.png)
 
 ## Connect to the Pi
-Im using a Pi3, you need to connect the pins as follows:
+Im using a Pi - the advantage of using a Pi over an arduino or serial port is that the logic levels are already at 3.3v and you dont need to convert from 5v. Connect the pins as follows:
 
 | Pi  | EA-3 |
 | ------------- | ------------- |
@@ -37,7 +37,7 @@ Im using a Pi3, you need to connect the pins as follows:
 | RX  | TX  |
 | GND  | GND  |
 
-##Configure Pi
+## Configure Pi
 On your Pi, run `sudo raspi-config` and check if it has the option advanced options -> serial. If it has, set it to disabled and you're done.  This stops the Pi from using its onboard UART with the Kernel console so you can use it to connect to the EA-3.
 
 SSH to your Pi and run `screen /dev/ttyS0 115200` and then boot the EA-3.
